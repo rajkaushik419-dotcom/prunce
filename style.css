@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffcccb; /* Soft pink color */
+    text-align: center;
+    padding: 50px;
+    background-image: url('https://emoji.design/assets/emoji/heart.png'); /* Heart emoji as background */
+    background-repeat: no-repeat;
+    background-position: center center;  /* Center the heart emoji */
+    background-size: 20%; /* Adjust size of the heart emoji */
+}
+
+.content {
+    position: relative;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#valentine-image {
+    width: 124px;  /* Increased image size */
+    height: 222px; /* Increased image size */
+    margin-top: 20px;
+    border-radius: 20px;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for better look */
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff66b2; /* Soft pink button color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff3399; /* Darker pink on hover */
+}
+
+#message {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #ff66b2;
+    font-weight: bold;
+}
